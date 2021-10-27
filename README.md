@@ -1,2 +1,2 @@
 # AzzyCoin
-I'm trying to make the best coin possible
+I'm trying to make the best coin possible, starting with litecoin.
