@@ -18,7 +18,7 @@
 
 - ```block time```: **30 sec**
 
-- ```Diff time```: **10,080 blocks**
+- ```difficulty time```: **10,080 blocks**
 
 - ```block reward```: **50**
 
