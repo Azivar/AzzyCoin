@@ -1,9 +1,8 @@
-Azzycoin Core integration/staging tree
+![](share/pixmaps/bitcoin256.png)
 =====================================
 
-[![Build Status](https://travis-ci.org/azzycoin-project/azzycoin.svg?branch=master)](https://travis-ci.org/azzycoin-project/azzycoin)
 
-https://azzycoin.org
+https://azzycoin.com
 
 What is Azzycoin?
 ----------------
