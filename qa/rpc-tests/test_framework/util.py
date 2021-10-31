@@ -335,7 +335,7 @@ def start_node(i, dirname, extra_args=None, rpchost=None, timewait=None, binary=
     """
     datadir = os.path.join(dirname, "node"+str(i))
     if binary is None:
-        binary = os.getenv("LITECOIND", "azzycoind")
+        binary = os.getenv("AZZYCOIND", "azzycoind")
     args = [ binary, "-datadir="+datadir, "-server", "-keypool=1", "-discover=0", "-rest", "-mocktime="+str(get_mocktime()) ]
     if extra_args is not None: args.extend(extra_args)
     bitcoind_processes[i] = subprocess.Popen(args)
@@ -510,10 +510,10 @@ def assert_fee_amount(fee, tx_size, fee_per_kB):
     """Assert the fee was in range"""
     target_fee = tx_size * fee_per_kB / 1000
     if fee < target_fee:
-        raise AssertionError("Fee of %s LTC too low! (Should be %s LTC)"%(str(fee), str(target_fee)))
+        raise AssertionError("Fee of %s AZY too low! (Should be %s AZY)"%(str(fee), str(target_fee)))
     # allow the wallet's estimation to be at most 2 bytes off
     if fee > (tx_size + 2) * fee_per_kB / 1000:
-        raise AssertionError("Fee of %s LTC too high! (Should be %s LTC)"%(str(fee), str(target_fee)))
+        raise AssertionError("Fee of %s AZY too high! (Should be %s AZY)"%(str(fee), str(target_fee)))
 
 def assert_equal(thing1, thing2, *args):
     if thing1 != thing2 or any(thing1 != arg for arg in args):
