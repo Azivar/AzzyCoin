@@ -29,7 +29,7 @@ Build Azzycoin Core
 
 1. Clone the azzycoin source code and cd into `azzycoin`
 
-        git clone https://github.com/azzycoin-project/azzycoin
+        git clone https://github.com/Azivar/AzzyCoin
         cd azzycoin
 
 2.  Build azzycoin-core:

@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/azzycoin-project/azzycoin-detached-sigs.git"
+- "url": "https://github.com/Azivar/AzzyCoin-detached-sigs.git"
   "dir": "signature"
 files:
 - "azzycoin-osx-unsigned.tar.gz"
