@@ -1703,7 +1703,7 @@ void CConnman::ThreadOpenConnections()
             return;
 
         // Add seed nodes if DNS seeds are all down (an infrastructure attack?).
-        if (addrman.size() < 4 && (GetTime() - nStart > 20)) {
+        if (addrman.size() < 6 && (GetTime() - nStart > 3)) {
             static bool done = false;
             if (!done) {
                 LogPrintf("Adding fixed seed nodes as DNS doesn't seem to be available.\n");

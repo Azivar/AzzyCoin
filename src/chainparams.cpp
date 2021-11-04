@@ -97,10 +97,10 @@ public:
         consensus.vDeployments[Consensus::DEPLOYMENT_SEGWIT].nTimeout = 9999999999999;
 
         // The best chain should have at least this much work.
-        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000000000019601960");
+        consensus.nMinimumChainWork = uint256S("0x0000000000000000000000000000000000000000000000000001563f721e1a10");
 
         // By default assume that the signatures in ancestors of this block are valid.
-        consensus.defaultAssumeValid = uint256S("0xf17f8cb78a5852a26239a802c9864087c905350554d6c2b0fece777d9087d731");
+        consensus.defaultAssumeValid = uint256S("0xb3b7d320b941b447ad0e880122e495f0dc7caf4d4f7e3c460365e9226f547de7");
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
@@ -121,15 +121,15 @@ public:
 
         // Note that of those with the service bits flag, most only support a subset of possible options
 
-        vSeeds.push_back(CDNSSeedData("149.248.3.233", "149.248.3.233", true));
-        vSeeds.push_back(CDNSSeedData("149.28.73.22", "149.28.73.22", true));
-        vSeeds.push_back(CDNSSeedData("66.42.81.169", "66.42.81.169", true));
-        vSeeds.push_back(CDNSSeedData("140.82.1.236", "140.82.1.236", true));
+        vSeeds.push_back(CDNSSeedData("149.248.3.233", "149.248.3.233"));
+        vSeeds.push_back(CDNSSeedData("149.28.73.22", "149.28.73.22"));
+        vSeeds.push_back(CDNSSeedData("66.42.81.169", "66.42.81.169"));
+        vSeeds.push_back(CDNSSeedData("140.82.1.236", "140.82.1.236"));
 
-        vSeeds.push_back(CDNSSeedData("103.249.70.56:6340", "103.249.70.56:26900", true));
-        vSeeds.push_back(CDNSSeedData("103.249.70.56:6339", "103.249.70.56:26901", true));
-        vSeeds.push_back(CDNSSeedData("103.249.70.56:6338", "103.249.70.56:26902", true));
-        vSeeds.push_back(CDNSSeedData("103.249.70.56:6341", "103.249.70.56:26903", true));
+        vSeeds.push_back(CDNSSeedData("103.249.70.56:26900", "103.249.70.56:26900"));
+        vSeeds.push_back(CDNSSeedData("103.249.70.56:26901", "103.249.70.56:26901"));
+        vSeeds.push_back(CDNSSeedData("103.249.70.56:26902", "103.249.70.56:26902"));
+        vSeeds.push_back(CDNSSeedData("103.249.70.56:26903", "103.249.70.56:26903"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
@@ -152,14 +152,18 @@ public:
             (  15, uint256S("0x30547047ac1daa206c7fa37da35890784c08ba710ed082f79d24413adb3f8744"))
             (  100, uint256S("0x0553104dee2a4c047064c0699985ad952b270b28dbfb8588c63a69fa05d02dd4"))
             (  405, uint256S("0xf17f8cb78a5852a26239a802c9864087c905350554d6c2b0fece777d9087d731"))  // Segwit
+            (  5000, uint256S("0x564fc530481081be5209b84ef5a55cf6691faa8bff8cb0ab3d295e542bbe5c1b"))
+            (  20000, uint256S("0xb81e9e6c909578e4a44501b3fb22ecdda3c88dbe3393bd052fbd41d8a0220042"))
+            (  60000, uint256S("0x8beadeee05a85336caca0cf82f92c90b904ff2a7c26dd85f9821456d17de68b4"))
+            (  83000, uint256S("0xb3b7d320b941b447ad0e880122e495f0dc7caf4d4f7e3c460365e9226f547de7"))
         };
 
         chainTxData = ChainTxData{
             // Data as of block 0.
-            1635640205, // * UNIX timestamp of last known number of transactions
-            406,  // * total number of transactions between genesis and that timestamp
+            1635999560, // * UNIX timestamp of last known number of transactions
+            83706,  // * total number of transactions between genesis and that timestamp
                     //   (the tx=... number in the SetBestChain debug.log lines)
-            1.0 // * estimated number of transactions per second after that timestamp
+            0.969167 // * estimated number of transactions per second after that timestamp
         };
     }
 };
