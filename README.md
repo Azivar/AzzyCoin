@@ -31,10 +31,10 @@
 ### ADDNODES:
 -------
 ```
-addnode=149.248.3.233:26900
-addnode=149.28.73.22:26900
-addnode=66.42.81.169:26900
-addnode=140.82.1.236:26900
+addnode=dnsseed1.azzycoin.com
+addnode=dnsseed2.azzycoin.com
+addnode=dnsseed3.azzycoin.com
+addnode=dnsseed4.azzycoin.com
 
 addnode=103.249.70.56:26900
 addnode=103.249.70.56:26901
