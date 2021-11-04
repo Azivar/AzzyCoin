@@ -2,9 +2,9 @@
 
 This issue tracker is only for technical issues related to azzycoin-core.
 
-General azzycoin questions and/or support requests and are best directed to the [azzycointalk.io forums](https://azzycointalk.io/).
+General azzycoin questions and/or support requests and are best directed to the [Azzycoin Discord](https://discord.gg/Erztp5WMg2).
 
-For reporting security issues, please contact the Azzycoin developers on the #azzycoin-dev Freenode IRC channel or alternatively you can email us at contact@azzycoin.org.
+For reporting security issues, please contact the Azzycoin developers on the #azzycoin-dev Freenode IRC channel or alternatively you can email us at azzycoincrypto@gmail.com.
 
 ### Describe the issue
 

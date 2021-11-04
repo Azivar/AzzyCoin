@@ -5,7 +5,7 @@ Setup
 ---------------------
 Azzycoin Core is the original Azzycoin client and it builds the backbone of the network. However, it downloads and stores the entire history of Azzycoin transactions (which is currently several GBs); depending on the speed of your computer and network connection, the synchronization process can take anywhere from a few hours to a day or more.
 
-To download Azzycoin Core, visit [azzycoin.org](https://azzycoin.org).
+To download Azzycoin Core, visit [azzycoin.com](https://azzycoin.com).
 
 Running
 ---------------------

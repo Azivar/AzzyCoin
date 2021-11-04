@@ -49,7 +49,7 @@ static const int MAX_URI_LENGTH = 255;
 #define SPINNER_FRAMES 36
 
 #define QAPP_ORG_NAME "Azzycoin"
-#define QAPP_ORG_DOMAIN "azzycoin.org"
+#define QAPP_ORG_DOMAIN "azzycoin.com"
 #define QAPP_APP_NAME_DEFAULT "Azzycoin-Qt"
 #define QAPP_APP_NAME_TESTNET "Azzycoin-Qt-testnet"
 
